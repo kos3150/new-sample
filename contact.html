@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Alpine Chalet</title>
+        <meta name="author" content="Kim Smock">
+        <meta name="description" content="More information is also available, please fill out the form below. Required fields are marked with an asterisk">
+        
+    <!-- FAVICON -->
+        
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+
+    <!-- Embed DM-Sans code in the <head> of your html -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet"> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet"> 
+
+    <!-- CSS STYLE SHEET -->
+        <link rel="stylesheet" type="text/css" href="mystyles.css">
+
+    </head>
+    <!-- BODY -->
+    <body>
+    <!-- HEADER -->  
+    <header id="top">
+    <!-- LOGO HERE -->
+            <a href="index.html" aria-label="Go to the Alpine Chalet home page"><img src="images/house-logo.png" alt="" width="50" height="50"></a>
+
+<!-- *the name of your resort* (you will choose a name for your resort that you will use on your pages) -->
+            
+    <h1>Alpine Chalet</h1>
+    <!--  NAVIGATION  -->
+    <!-- Home (index page) -->
+    <!-- Accommodations (placeholder link, you will not develop this page)-->
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        
+        <!-- Use the image called "swiss-sunset" as your hero image (be sure to write appropriate/descriptive alt text as needed) -->
+
+        <!-- IMAGE 1 swiss-sunset.jpg -->
+        <a href="#" aria-label="Alpine Chalet Home">
+            <img src="images/swiss-sunset.jpg" alt="An escape to Switzerland where a charming and peaceful villiage is set against the backdrop of the Swiss Alps" width="1200" height="456"></a>    
+            <section>           
+                <!-- CONTACT US -->
+                <h2>Contact Us</h2>        
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! </p>
+            </section>
+            <!-- IMAGE 2 swiss-peak.jpg-->
+            <a href="" aria-label="Alpine Chalet Home"><img src="images/swiss-peak.jpg" alt="Beautiful valley where Alpine Chalet is located in the Swiss Alps" width="350" height="455"></a>               
+            
+        <!-- FORM content -->    
+        <!-- use the image called swiss-peak.jpg (be sure to write appropriate/descriptive alt text as needed) -->    
+        <!--  h3  -->    
+        <section 
+            id="contact">
+        <h3>Contact Us</h3>    
+        <!-- TEXT HERE -->    
+        <p>If you would like more information, please fill out the form below. Required fields are marked with an asterisk (<span class="required">*</span>).</p>    
+        <!-- FULL NAME -->
+        <!-- CONTROL and label, required -->
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+        
+                <label for="my-name">Name<span class="required">*</span></label>
+                <input type="text" name="my-name" id="my-name" required>
+        
+        <!-- EMAIL address -->
+        <!-- CONTROL and label, required -->    
+                <label for="my-email">Email<span class="required">*</span></label>
+                <input type="email" name="my-email" id="my-email" required>
+        <!-- PHONE number -->
+        <!-- CONTROL and label, required -->
+                <label for="my-phone">Phone</label>
+                <input type="tel" name="my-phone" id="my-phone" required>
+            <fieldset>
+                <legend>Preferred Method of Contact</legend>
+                <input type="radio" name="contact-pref" id="pref-email" checked>
+                <label for="pref-email">Email</label>
+                <input type="radio" name="contact-pref" id="pref-phone">
+                <label for="pref-phone">Phone</label>
+            </fieldset>    
+        <!-- COMMENTS -->
+        <!-- CONTROL and label, required -->
+                <label for="comments">Comments <span class="reqired">*</span></label>
+                <textarea name="comments" id="comments" required></textarea>    
+        <!-- SUBMIT - control -->
+                <input type="submit" name="my-submit" id="my-submit" value="Submit the Form">
+            </form>
+        </section>
+    
+    <!-- BACK TO TOP OF PAGE -->
+            <label>   
+                <button class="#top">Back To Top</button>
+                <a href="#top">Back to back-to-top</a>
+            </label>
+        </main>
+
+    <!-- FOOTER -->
+
+    <!-- Copyright ©2023 - *the name of your resort* (you will choose a name for your resort that you will use on your pages) -->
+
+        <footer>
+            <small>Copyright ©2023 All Rights Reserved Alpine Chalet -</small>
+            <small>This Site is for Educational Purposes</small>
+        </footer>
+
+    </body>
+</html>
